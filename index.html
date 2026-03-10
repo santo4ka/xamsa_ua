@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Хамса — Свежая малосольная и пряная рыба с доставкой по Украине</title>
+  <meta name="description" content="Купить свежую малосольную и пряную хамсу с доставкой по Украине. Натуральная рыба высокого качества. Фасовка 0.5, 1 и 2.5 кг.">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Навигация -->
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="#" class="logo">ХАМСА</a>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#products">Продукция</a></li>
+          <li><a href="#packaging">Цены</a></li>
+          <li><a href="#gallery">Галерея</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+        <a href="#order" class="btn btn-primary">Заказать</a>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Главный экран -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="./images/hamsa-hero.jpg" alt="Свежая хамса">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="badge">Доставка по всей Украине</span>
+        <h1>Свежая малосольная<br><span class="accent">и пряная хамса</span></h1>
+        <p>Натуральная рыба высокого качества с доставкой по Украине. Традиционный рецепт посола, насыщенный вкус, удобная фасовка.</p>
+        <div class="hero-buttons">
+          <a href="#order" class="btn btn-primary">Заказать сейчас</a>
+          <a href="#products" class="btn btn-secondary">Узнать больше</a>
+        </div>
+        <div class="hero-contacts">
+          <a href="https://t.me/hamsa_ukraine" target="_blank">Telegram</a>
+          <a href="https://wa.me/380501234567" target="_blank">WhatsApp</a>
+          <a href="tel:+380501234567">+380 (50) 123-45-67</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Продукция -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Наша продукция</span>
+        <h2>Виды <span class="gradient">хамсы</span></h2>
+        <p>Выберите свой идеальный вкус — классический или пикантный</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/product-light.jpg" alt="Малосольная хамса">
+            <span class="badge-hot">Хит продаж</span>
+          </div>
+          <div class="product-info">
+            <h3>Малосольная хамса</h3>
+            <p>Классический вкус для ценителей натуральной рыбы. Нежное мясо с легкой соленостью.</p>
+            <div class="product-features">
+              <span>Нежная текстура</span>
+              <span>Классический вкус</span>
+            </div>
+            <div class="product-price">
+              <span>Цена:</span>
+              <strong>от 180 ₴/кг</strong>
+            </div>
+            <a href="#order" class="btn btn-primary">Выбрать</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="./images/product-spicy.jpg" alt="Хамса пряного посола">
+            <span class="badge-new">Новинка</span>
+          </div>
+          <div class="product-info">
+            <h3>Хамса пряного посола</h3>
+            <p>Пикантный вариант для любителей острых ощущений. Смесь пряностей придает неповторимый аромат.</p>
+            <div class="product-features">
+              <span>Пикантный вкус</span>
+              <span>Ароматные специи</span>
+            </div>
+            <div class="product-price">
+              <span>Цена:</span>
+              <strong>от 200 ₴/кг</strong>
+            </div>
+            <a href="#order" class="btn btn-primary">Выбрать</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Фасовка и цены -->
+  <section class="packaging" id="packaging">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Фасовка</span>
+        <h2>Выберите <span class="gradient">удобную фасовку</span></h2>
+        <p>От небольших порций до семейных запасов</p>
+      </div>
+      
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="light">Малосольная</button>
+        <button class="tab-btn" data-tab="spicy">Пряного посола</button>
+      </div>
+
+      <!-- Малосольная -->
+      <div class="tab-content active" id="light">
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h4>0.5 кг</h4>
+            <p class="pricing-title">Пробная порция</p>
+            <p class="pricing-desc">Идеально для первого знакомства</p>
+            <div class="pricing-price">90 <span>₴</span></div>
+            <ul>
+              <li>Герметичная упаковка</li>
+              <li>Срок хранения 14 дней</li>
+              <li>Доставка в день заказа</li>
+            </ul>
+            <a href="#order" class="btn btn-outline">Выбрать</a>
+          </div>
+          <div class="pricing-card popular">
+            <span class="popular-badge">Популярное</span>
+            <h4>1 кг</h4>
+            <p class="pricing-title">Оптимальный выбор</p>
+            <p class="pricing-desc">Самый популярный вариант</p>
+            <div class="pricing-price">170 <span>₴</span></div>
+            <ul>
+              <li>Герметичная упаковка</li>
+              <li>Срок хранения 14 дней</li>
+              <li>Доставка в день заказа</li>
+            </ul>
+            <a href="#order" class="btn btn-primary">Выбрать</a>
+          </div>
+          <div class="pricing-card">
+            <h4>2.5 кг</h4>
+            <p class="pricing-title">Выгодная цена</p>
+            <p class="pricing-desc">Для большой компании или запас</p>
+            <div class="pricing-price">400 <span>₴</span></div>
+            <ul>
+              <li>Герметичная упаковка</li>
+              <li>Срок хранения 14 дней</li>
+              <li>Доставка в день заказа</li>
+            </ul>
+            <a href="#order" class="btn btn-outline">Выбрать</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Пряная -->
+      <div class="tab-content" id="spicy">
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h4>0.5 кг</h4>
+            <p class="pricing-title">Пробная порция</p>
+            <p class="pricing-desc">Идеально для первого знакомства</p>
+            <div class="pricing-price">100 <span>₴</span></div>
+            <ul>
+              <li>Герметичная упаковка</li>
+              <li>Срок хранения 14 дней</li>
+              <li>Доставка в день заказа</li>
+            </ul>
+            <a href="#order" class="btn btn-outline">Выбрать</a>
+          </div>
+          <div class="pricing-card popular">
+            <span class="popular-badge">Популярное</span>
+            <h4>1 кг</h4>
+            <p class="pricing-title">Оптимальный выбор</p>
+            <p class="pricing-desc">Самый популярный вариант</p>
+            <div class="pricing-price">190 <span>₴</span></div>
+            <ul>
+              <li>Герметичная упаковка</li>
+              <li>Срок хранения 14 дней</li>
+              <li>Доставка в день заказа</li>
+            </ul>
+            <a href="#order" class="btn btn-primary">Выбрать</a>
+          </div>
+          <div class="pricing-card">
+            <h4>2.5 кг</h4>
+            <p class="pricing-title">Выгодная цена</p>
+            <p class="pricing-desc">Для большой компании или запас</p>
+            <div class="pricing-price">450 <span>₴</span></div>
+            <ul>
+              <li>Герметичная упаковка</li>
+              <li>Срок хранения 14 дней</li>
+              <li>Доставка в день заказа</li>
+            </ul>
+            <a href="#order" class="btn btn-outline">Выбрать</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Галерея -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Галерея</span>
+        <h2>Аппетитная хамса <span class="gradient">в деталях</span></h2>
+        <p>Качество, которое видно невооруженным глазом</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item" onclick="openLightbox(0)">
+          <img src="./images/gallery-1.jpg" alt="Традиционная подача хамсы">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(1)">
+          <img src="./images/gallery-2.jpg" alt="Хамса со специями">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(2)">
+          <img src="./images/gallery-3.jpg" alt="Свежая рыба">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(3)">
+          <img src="./images/gallery-4.jpg" alt="Хамса крупным планом">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(4)">
+          <img src="./images/gallery-5.jpg" alt="Хамса с лимоном">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(5)">
+          <img src="./images/gallery-6.jpg" alt="Хамса в ведрах">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Форма заказа -->
+  <section class="order" id="order">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Заказ</span>
+        <h2>Оформите заказ <span class="gradient">прямо сейчас</span></h2>
+        <p>Заполните форму — мы перезвоним для подтверждения</p>
+      </div>
+      <div class="order-grid">
+        <form class="order-form" id="orderForm">
+          <div class="form-group">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" name="phone" placeholder="+380 (__) ___-__-__" required>
+          </div>
+          <div class="form-group">
+            <label for="product">Вид хамсы</label>
+            <select id="product" name="product" required>
+              <option value="">Выберите вид хамсы</option>
+              <option value="light-0.5">Малосольная — 0.5 кг (90 ₴)</option>
+              <option value="light-1">Малосольная — 1 кг (170 ₴)</option>
+              <option value="light-2.5">Малосольная — 2.5 кг (400 ₴)</option>
+              <option value="spicy-0.5">Пряная — 0.5 кг (100 ₴)</option>
+              <option value="spicy-1">Пряная — 1 кг (190 ₴)</option>
+              <option value="spicy-2.5">Пряная — 2.5 кг (450 ₴)</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Оформить заказ</button>
+          <p class="form-note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</p>
+        </form>
+        <div class="contacts" id="contacts">
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <span>Телефон</span>
+              <a href="tel:+380501234567">+380 (50) 123-45-67</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✈️</div>
+            <div>
+              <span>Telegram</span>
+              <a href="https://t.me/hamsa_ukraine" target="_blank">@hamsa_ukraine</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💬</div>
+            <div>
+              <span>WhatsApp</span>
+              <a href="https://wa.me/380501234567" target="_blank">+380 (50) 123-45-67</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <span>Локация</span>
+              <p>Киев / Доставка по всей Украине</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">🕐</div>
+            <div>
+              <span>Режим работы</span>
+              <p>Принимаем заказы круглосуточно<br>Обработка: 9:00 — 20:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>ХАМСА</h3>
+          <p>Свежая малосольная и пряная хамса с доставкой по Украине.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Меню</h4>
+          <a href="#products">Продукция</a>
+          <a href="#packaging">Цены</a>
+          <a href="#gallery">Галерея</a>
+          <a href="#order">Заказать</a>
+        </div>
+        <div class="footer-links">
+          <h4>Контакты</h4>
+          <a href="tel:+380501234567">+380 (50) 123-45-67</a>
+          <a href="https://t.me/hamsa_ukraine" target="_blank">@hamsa_ukraine</a>
+          <p>Киев / Доставка по Украине</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Хамса. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+    <span class="lightbox-prev" onclick="changeImage(-1)">&#10094;</span>
+    <span class="lightbox-next" onclick="changeImage(1)">&#10095;</span>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <!-- Модальное окно успеха -->
+  <div class="modal" id="successModal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal()">&times;</span>
+      <h3>✅ Заказ отправлен!</h3>
+      <p>Мы перезвоним вам в ближайшее время для подтверждения.</p>
+      <button class="btn btn-primary" onclick="closeModal()">Отлично</button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
